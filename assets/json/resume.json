@@ -11,14 +11,14 @@
     {
       "name": "Max Planck Institute for Intelligent Systems, Tübingen, Germany",
       "position": "PhD student",
-      "startDate": "2021",
+      "startDate": "2021-09",
       "summary": "Research focus: Collective action in machine learning and development of generative model frameworks. Studied how a change of optimization and learning algorithm affects the success of collective action. Investigated the connection between density estimation to a simpler training algorithm for WGANs. Supervised by Samira Samadi (MPI-IS) and Amartya Sanyal (University of Copenhagen). Previous work in the Perceiving Systems department, developing a 3D articulated model of laboratory rats with Michael J. Black (MPI-IS), Silvia Zuffi (IMATI-CNR) and Sergi Pujades (INRIA) using computer vision tools."
     },
     {
       "name": "Weizmann Institute of Science, Rehovot, Israel",
       "position": "Research Assistant",
-      "startDate": "2021",
-      "endDate": "2021",
+      "startDate": "2021-6",
+      "endDate": "2021-3",
       "summary": "Applied signal processing and matched filtering on gravitational waves data to detect binary black holes. Worked with Barak Zackay."
     },
     {
