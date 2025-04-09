@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Visitng Copenhagen university for 3 months to work with Amartya Sanyal.
+Visiting Copenhagen university for 3 months to work with [Amartya Sanyal](https://amartya18x.github.io/).

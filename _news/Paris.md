@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Visitng École Polytechnique in Paris for 3 months to work with Luiz Chamon.
+Visiting École Polytechnique in Paris for 3 months to work with [Luiz Chamon](https://luizchamon.com/).

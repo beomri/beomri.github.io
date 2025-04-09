@@ -17,8 +17,8 @@
     {
       "name": "Weizmann Institute of Science, Rehovot, Israel",
       "position": "Research Assistant",
-      "startDate": "2021-6",
-      "endDate": "2021-3",
+      "startDate": "2021-03",
+      "endDate": "2021-06",
       "summary": "Applied signal processing and matched filtering on gravitational waves data to detect binary black holes. Worked with Barak Zackay."
     },
     {
@@ -101,27 +101,32 @@
     {
       "name": "The Role of Learning Algorithms in Collective Action",
       "publisher": "ICML",
-      "releaseDate": "2024"
+      "releaseDate": "2024",
+      "url": "https://proceedings.mlr.press/v235/ben-dov24a.html"
     },
     {
       "name": "Adversarial Likelihood Estimation With One-Way Flows",
       "publisher": "WACV",
-      "releaseDate": "2024"
+      "releaseDate": "2024",
+      "url": "https://openaccess.thecvf.com/content/WACV2024/html/Ben-Dov_Adversarial_Likelihood_Estimation_With_One-Way_Flows_WACV_2024_paper.html"
     },
     {
       "name": "A hull reconstruction–reprojection method for pose estimation of free-flying fruit flies",
       "publisher": "Journal of Experimental Biology",
-      "releaseDate": "2023"
+      "releaseDate": "2023",
+      "url": "https://journals.biologists.com/jeb/article/226/21/jeb245853/334548/A-hull-reconstruction-reprojection-method-for-pose"
     },
     {
       "name": "Solving the thoracic inverse problem in the fruit fly",
       "publisher": "Bioinspiration & Biomimetics",
-      "releaseDate": "2023"
+      "releaseDate": "2023",
+      "url": "https://iopscience.iop.org/article/10.1088/1748-3190/accc23/meta"
     },
     {
       "name": "Model-Based Tracking of Fruit Flies in Free Flight",
       "publisher": "Insects",
-      "releaseDate": "2022"
+      "releaseDate": "2022",
+      "url": "https://www.mdpi.com/2075-4450/13/11/1018"
     }
   ],
   "skills": [
