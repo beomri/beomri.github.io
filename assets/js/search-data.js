@@ -23,12 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-visiting-copenhagen-university-for-3-months-to-work-with-amartya-sanyal",
+        },{id: "news-visiting-copenhagen-university-for-3-months-to-work-with-amartya-sanyal",
           title: 'Visiting Copenhagen university for 3 months to work with Amartya Sanyal.',
           description: "",
           section: "News",},{id: "news-visiting-école-polytechnique-in-paris-for-3-months-to-work-with-luiz-chamon",
