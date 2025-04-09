@@ -28,11 +28,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-visitng-copenhagen-university-for-3-months-to-work-with-amartya-sanyal",
-          title: 'Visitng Copenhagen university for 3 months to work with Amartya Sanyal.',
+            },},{id: "news-visiting-copenhagen-university-for-3-months-to-work-with-amartya-sanyal",
+          title: 'Visiting Copenhagen university for 3 months to work with Amartya Sanyal.',
           description: "",
-          section: "News",},{id: "news-visitng-école-polytechnique-in-paris-for-3-months-to-work-with-luiz-chamon",
-          title: 'Visitng École Polytechnique in Paris for 3 months to work with Luiz Chamon....',
+          section: "News",},{id: "news-visiting-école-polytechnique-in-paris-for-3-months-to-work-with-luiz-chamon",
+          title: 'Visiting École Polytechnique in Paris for 3 months to work with Luiz Chamon....',
           description: "",
           section: "News",},{
         id: 'social-email',
