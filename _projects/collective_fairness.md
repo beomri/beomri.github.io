@@ -34,7 +34,7 @@ In this project, we explore how a subgroup of users (particularly from underrepr
 
 ## Files
 - For more details, results and limitations, please read our [research preprint]({{ '/assets/pdf/fairness_collective_paper.pdf' | relative_url }})
-- [Here]({{ '/assets/pdf/fairness_collective_slides.pdf' | relative_url }}) are the slides for a non-technical talk I gave at the [Tübinegn Days of Digital Freedom](https://tdf.cttue.de/en/index.html)
+- [Here]({{ '/assets/pdf/fairness_collective_slides.pdf' | relative_url }}) are the slides for a non-technical talk I gave at the [Tübingen Days of Digital Freedom](https://tdf.cttue.de/en/index.html)
 
 ## Collaborators
 - Samira Samadi
