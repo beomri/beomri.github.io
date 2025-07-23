@@ -21,15 +21,16 @@ related_publications: true
 
 
 ## Introduction
-The world is unfair and machine learning usually preserves this unfairness.
-Research provides plenty of solutions to promote fairness in machine learning, but there are two things that all the solution have in common:
-1. They are targeted at firms who operate the machine learning model.
-2. The less unfairness they offer, the greater the prediction error.
-These two points create somewhat of a paradox: research proposes to firms solutions that increase error, but firms may care only about profit and minimizing error, discouraging them to implement these solutions.
+Machine learning often reflects and preserves real-world unfairness.
+While researchers have proposed many methods to address this, all the solutions have two things in common:
+1. These methods are designed for the firms that operate the models.
+2. Reducing unfairness often comes at the cost of increased prediction error.
 
-In the current information age, where many large tech firms collect and use their users' data to train their own models, the users control the data they share with the firms.
-Can this agency be used to promote fairness?
-In this project we suggest strategies for a subgroup of the minority to promote fairness.
+This creates a paradox: solutions that promote fairness may be ignored by firms because they prioritize minimizing error and maximizing profit.
+
+But in today's data-driven world, many large tech firms collect their users' data to train machine learning models.
+Can these users leverage their agency of the data they share to promote fairness?
+In this project, we explore how a subgroup of users (particularly from underrepresented minorities) can strategically influence fairness outcomes by managing the data they contribute.
 
 ## Files
 - For more details, results and limitations, please read our [research preprint]({{ '/assets/pdf/fairness_collective_paper.pdf' | relative_url }})
