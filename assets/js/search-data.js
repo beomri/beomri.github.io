@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "A sample of the ideas I worked on",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -29,7 +36,12 @@ ninja.data = [{
           section: "News",},{id: "news-visiting-école-polytechnique-in-paris-for-3-months-to-work-with-luiz-chamon",
           title: 'Visiting École Polytechnique in Paris for 3 months to work with Luiz Chamon....',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-collective-action-for-fairness",
+          title: 'Collective action for fairness',
+          description: "Can people collaborate to make ML fair?",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/collective_fairness/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
