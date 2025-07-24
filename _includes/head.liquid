@@ -187,3 +187,12 @@
 {% if page.tikzjax %}
   <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
 {% endif %}
+
+{% if site.enable_cronitor_analytics %}
+  <!-- Cronitor RUM -->
+  <script async src="https://rum.cronitor.io/script.js"></script>
+<script>
+    window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); };
+    cronitor('config', { clientKey: 'e757e49c231f0be20945ab3797d7cff9' });
+</script>
+{% endif %}

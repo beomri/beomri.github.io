@@ -239,11 +239,13 @@
   <script defer src="{{ '/assets/js/google-analytics-setup.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
-{% if site.enable_cronitor_analytics %}
-  <!-- Cronitor RUM -->
-  <script async src="https://rum.cronitor.io/script.js"></script>
-  <script defer src="{{ '/assets/js/cronitor-analytics-setup.js' | relative_url | bust_file_cache }}"></script>
-{% endif %}
+{% comment %}
+  {% if site.enable_cronitor_analytics %}
+    <!-- Cronitor RUM -->
+    <script async src="https://rum.cronitor.io/script.js"></script>
+    <script defer src="{{ '/assets/js/cronitor-analytics-setup.js' | relative_url | bust_file_cache }}"></script>
+  {% endif %}
+{% endcomment %}
 {% if site.enable_pirsch_analytics %}
   <script
     defer
