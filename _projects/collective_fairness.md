@@ -32,9 +32,9 @@ But in today's data-driven world, many large tech firms collect their users' dat
 Can these users leverage their agency of the data they share to promote fairness?
 In this project, we explore how a subgroup of users (particularly from underrepresented minorities) can strategically influence fairness outcomes by managing the data they contribute.
 
-## Files
+## Resources
 - For more details, results and limitations, please read our [research preprint]({{ '/assets/pdf/fairness_collective_paper.pdf' | relative_url }})
-- [Here]({{ '/assets/pdf/fairness_collective_slides.pdf' | relative_url }}) are the slides for a non-technical talk I gave at the [Tübingen Days of Digital Freedom](https://tdf.cttue.de/en/index.html)
+- [A recording of a non-technical talk](https://www.youtube.com/watch?v=z4Hjm5D_lkI) and the [slides]({{ '/assets/pdf/fairness_collective_slides.pdf' | relative_url }}) from the [Tübingen Days of Digital Freedom](https://tdf.cttue.de/en/index.html).
 
 ## Collaborators
 - Samira Samadi
