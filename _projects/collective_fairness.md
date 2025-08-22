@@ -33,7 +33,7 @@ Can these users leverage their agency of the data they share to promote fairness
 In this project, we explore how a subgroup of users (particularly from underrepresented minorities) can strategically influence fairness outcomes by managing the data they contribute.
 
 ## Resources
-- For more details, results and limitations, please read our [research preprint]({{ '/assets/pdf/fairness_collective_paper.pdf' | relative_url }})
+- For more details, results and limitations, please read our [research preprint](https://arxiv.org/abs/2508.15374)
 - [A recording of a non-technical talk](https://www.youtube.com/watch?v=z4Hjm5D_lkI) and the [slides]({{ '/assets/pdf/fairness_collective_slides.pdf' | relative_url }}) from the [Tübingen Days of Digital Freedom](https://tdf.cttue.de/en/index.html).
 
 ## Collaborators
