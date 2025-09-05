@@ -48,6 +48,13 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/collective_fairness/";
             },},{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/omribendov.bsky.social", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -81,6 +88,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://is.mpg.de/hml/person/odov", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/DovOmri", "_blank");
         },
       },{
       id: 'light-theme',
