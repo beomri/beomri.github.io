@@ -34,6 +34,7 @@ In this project, we explore how a subgroup of users (particularly from underrepr
 
 ## Resources
 - For more details, results and limitations, please read our [research preprint](https://arxiv.org/abs/2508.15374)
+- A [conference poster]({{ '/assets/pdf/fairness_from_users_poster.pdf' | relative_url }}) presenting the paper.
 - [A recording of a non-technical talk](https://www.youtube.com/watch?v=z4Hjm5D_lkI) and the [slides]({{ '/assets/pdf/fairness_collective_slides.pdf' | relative_url }}) from the [Tübingen Days of Digital Freedom](https://tdf.cttue.de/en/index.html).
 
 ## Collaborators
