@@ -51,7 +51,12 @@ ninja.data = [{
           section: "News",},{id: "news-our-preprint-adaptive-symmetrization-of-the-kl-divergence-is-now-available-on-arxiv",
           title: 'Our preprint Adaptive Symmetrization of the KL Divergence is now available on arXiv....',
           description: "",
-          section: "News",},{id: "projects-collective-action-for-fairness",
+          section: "News",},{id: "projects-adaptive-symmetrization-of-the-kl-divergence",
+          title: 'Adaptive Symmetrization of the KL Divergence',
+          description: "An approach to non-adversarially minimize the symmetric Jeffreys divergence.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/adaptive_symmetrization/";
+            },},{id: "projects-collective-action-for-fairness",
           title: 'Collective action for fairness',
           description: "Can people collaborate to make ML fair?",
           section: "Projects",handler: () => {
