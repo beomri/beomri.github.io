@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our preprint *Adaptive Symmetrization of the KL Divergence* is now available on [arXiv](https://arxiv.org/abs/2511.11159).
+Our preprint [*Adaptive Symmetrization of the KL Divergence*]({{ '/projects/adaptive_symmetrization/' | relative_url }}) is now available on [arXiv](https://arxiv.org/abs/2511.11159).
