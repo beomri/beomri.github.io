@@ -57,7 +57,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/adaptive_symmetrization/";
             },},{id: "projects-collective-action-for-fairness",
-          title: 'Collective action for fairness',
+          title: 'Collective Action for Fairness',
           description: "Can people collaborate to make ML fair?",
           section: "Projects",handler: () => {
               window.location.href = "/projects/collective_fairness/";
