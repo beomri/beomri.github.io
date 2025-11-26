@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Collective action for fairness
+title: Collective Action for Fairness
 description: Can people collaborate to make ML fair?
 img: assets/img/collective_fairness.png
 importance: 1
