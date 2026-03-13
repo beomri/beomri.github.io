@@ -1,0 +1,104 @@
+# Site settings
+title: Omri Ben-Dov
+first_name: Omri
+last_name: Ben-Dov
+email: odov@tue.mpg.de
+description: >-
+  PhD student in Machine Learning at the Max Planck Institute for Intelligent Systems.
+  Research on collective action and generative modeling.
+url: "https://beomri.github.io"
+baseurl: ""
+
+# Profile
+profile:
+  image: prof_pic.jpg
+  image_alt: Omri Ben-Dov
+  more_info: >
+    PhD student in ML<br>
+    MPI-IS, Tübingen
+
+# Social / contact
+contact_note: >
+  Feel free to reach out for collaborations or questions.
+
+# Scholar
+scholar:
+  last_name: [Ben-Dov]
+  first_name: [Omri]
+  style: apa
+  sort_by: year
+  order: descending
+  group_by: year
+  group_order: descending
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibliography_class: pub-list
+  bibliography_list_tag: ul
+  bibliography_item_tag: li
+  bibliography_item_attributes:
+    class: pub-item
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+  news:
+    output: true
+    sort_by: date
+    order: reverse
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      type: projects
+    values:
+      layout: project
+  - scope:
+      type: news
+    values:
+      layout: news_item
+
+# Plugins
+plugins:
+  - jekyll-scholar
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Resume data is loaded from _data/resume.json by Jekyll natively
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  math_engine: mathjax
+
+# MathJax
+mathjax: true
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+  quiet_deps: true
+  silence_deprecations: [import]
+
+# Exclude from build
+exclude:
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - .bundle/
+  - node_modules/

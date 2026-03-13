@@ -1,0 +1,8 @@
+---
+layout: news_item
+date: 2025-11-14
+inline: true
+related_posts: false
+---
+
+Our preprint [*Adaptive Symmetrization of the KL Divergence*](/projects/adaptive_symmetrization/) is now available on [arXiv](https://arxiv.org/abs/2511.11159).

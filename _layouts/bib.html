@@ -1,0 +1,75 @@
+---
+---
+<div class="pub-item-inner">
+  <div class="pub-title">{{ entry.title }}</div>
+
+  <div class="pub-authors">
+    {%- for author in entry.author_array -%}
+      {%- assign last = author.last | strip -%}
+      {%- if site.scholar.last_name contains last -%}
+        <span class="pub-author-me">{{ author.first }} {{ author.last }}</span>
+      {%- else -%}
+        {{ author.first }} {{ author.last }}
+      {%- endif -%}
+      {%- unless forloop.last -%}, {% endunless -%}
+    {%- endfor -%}
+  </div>
+
+  <div class="pub-venue">
+    {%- if entry.type == 'article' -%}
+      {{ entry.journal }}{% if entry.year %}, {{ entry.year }}{% endif %}
+    {%- elsif entry.type == 'inproceedings' or entry.type == 'incollection' -%}
+      {{ entry.booktitle }}{% if entry.year %}, {{ entry.year }}{% endif %}
+    {%- elsif entry.archiveprefix == 'arXiv' or entry.publisher == 'arXiv' -%}
+      arXiv{% if entry.year %}, {{ entry.year }}{% endif %}
+    {%- else -%}
+      {% if entry.year %}{{ entry.year }}{% endif %}
+    {%- endif -%}
+  </div>
+
+  <div class="pub-links">
+    {% if entry.pdf %}
+      {% if entry.pdf contains '://' %}
+        <a href="{{ entry.pdf }}" target="_blank" rel="noopener">pdf</a>
+      {% else %}
+        <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank" rel="noopener">pdf</a>
+      {% endif %}
+    {% endif %}
+    {% if entry.doi %}
+      <a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener">{% if entry.archiveprefix == 'arXiv' or entry.publisher == 'arXiv' %}arXiv{% else %}paper{% endif %}</a>
+    {% endif %}
+    {% if entry.html %}
+      {% if entry.html contains '://' %}
+        <a href="{{ entry.html }}" target="_blank" rel="noopener">paper</a>
+      {% else %}
+        <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" target="_blank" rel="noopener">paper</a>
+      {% endif %}
+    {% endif %}
+    {% if entry.poster %}
+      {% if entry.poster contains '://' %}
+        <a href="{{ entry.poster }}" target="_blank" rel="noopener">poster</a>
+      {% else %}
+        <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" target="_blank" rel="noopener">poster</a>
+      {% endif %}
+    {% endif %}
+    {% if entry.slides %}
+      {% if entry.slides contains '://' %}
+        <a href="{{ entry.slides }}" target="_blank" rel="noopener">slides</a>
+      {% else %}
+        <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" target="_blank" rel="noopener">slides</a>
+      {% endif %}
+    {% endif %}
+    {% if entry.code %}
+      <a href="{{ entry.code }}" target="_blank" rel="noopener">code</a>
+    {% endif %}
+    {% if entry.website %}
+      <a href="{{ entry.website }}" target="_blank" rel="noopener">website</a>
+    {% endif %}
+    {% if entry.abstract %}
+    <details class="pub-abstract">
+      <summary>abstract</summary>
+      <div class="pub-abstract-text">{{ entry.abstract }}</div>
+    </details>
+    {% endif %}
+  </div>
+</div>

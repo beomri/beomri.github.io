@@ -1,0 +1,57 @@
+{% comment %}
+  Renders social icons from _data/socials.yml.
+  Supports: email, github_username, linkedin_username, scholar_userid,
+            bluesky_url, x_username, work_url, youtube_url.
+{% endcomment %}
+
+<div class="social-icons">
+
+  {% if site.data.socials.email %}
+  <a href="mailto:{{ site.data.socials.email }}" title="Email" aria-label="Email">
+    <i class="fa-solid fa-envelope"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.socials.github_username %}
+  <a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+    <i class="fa-brands fa-github"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.socials.linkedin_username %}
+  <a href="https://linkedin.com/in/{{ site.data.socials.linkedin_username }}" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.socials.scholar_userid %}
+  <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">
+    <i class="ai ai-google-scholar"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.socials.bluesky_url %}
+  <a href="{{ site.data.socials.bluesky_url }}" target="_blank" rel="noopener" title="Bluesky" aria-label="Bluesky">
+    <i class="fa-brands fa-bluesky"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.socials.x_username %}
+  <a href="https://x.com/{{ site.data.socials.x_username }}" target="_blank" rel="noopener" title="X (Twitter)" aria-label="X (Twitter)">
+    <i class="fa-brands fa-x-twitter"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.socials.work_url %}
+  <a href="{{ site.data.socials.work_url }}" target="_blank" rel="noopener" title="Institute page" aria-label="Institute page">
+    <i class="fa-solid fa-briefcase"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.socials.youtube_url %}
+  <a href="{{ site.data.socials.youtube_url }}" target="_blank" rel="noopener" title="YouTube" aria-label="YouTube">
+    <i class="fa-brands fa-youtube"></i>
+  </a>
+  {% endif %}
+
+</div>

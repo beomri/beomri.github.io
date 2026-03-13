@@ -1,0 +1,99 @@
+@misc{ben-dovAdaptiveSymmetrizationKL2025,
+  title = {Adaptive {{Symmetrization}} of the {{KL Divergence}}},
+  author = {{Ben-Dov}, Omri and Chamon, Luiz F. O.},
+  year = 2025,
+  number = {arXiv:2511.11159},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2511.11159},
+  urldate = {2026-01-28},
+  abstract = {Many tasks in machine learning can be described as or reduced to learning a probability distribution given a finite set of samples. A common approach is to minimize a statistical divergence between the (empirical) data distribution and a parameterized distribution, e.g., a normalizing flow (NF) or an energy-based model (EBM). In this context, the forward KL divergence is a ubiquitous due to its tractability, though its asymmetry may prevent capturing some properties of the target distribution. Symmetric alternatives involve brittle min-max formulations and adversarial training (e.g., generative adversarial networks) or evaluating the reverse KL divergence, as is the case for the symmetric Jeffreys divergence, which is challenging to compute from samples. This work sets out to develop a new approach to minimize the Jeffreys divergence. To do so, it uses a proxy model whose goal is not only to fit the data, but also to assist in optimizing the Jeffreys divergence of the main model. This joint training task is formulated as a constrained optimization problem to obtain a practical algorithm that adapts the models priorities throughout training. We illustrate how this framework can be used to combine the advantages of NFs and EBMs in tasks such as density estimation, image generation, and simulation-based inference.},
+  archiveprefix = {arXiv},
+  selected = {false},
+  preprint = {true}
+}
+
+@inproceedings{ben-dovAdversarialLikelihoodEstimation2024,
+  title = {Adversarial {{Likelihood Estimation With One-Way Flows}}},
+  booktitle = {2024 {{IEEE}}/{{CVF}} Winter Conference on Applications of Computer Vision ({{WACV}})},
+  author = {{Ben-Dov}, Omri and Gupta, Pravir Singh and Abrevaya, Victoria and Black, Michael J. and Ghosh, Partha},
+  year = 2024,
+  pages = {3767--3776},
+  doi = {10.1109/WACV57701.2024.00374},
+  abstract = {Generative Adversarial Networks (GANs) can produce high-quality samples, but do not provide an estimate of the probability density around the samples. However, it has been noted that maximizing the log-likelihood within an energy-based setting can lead to an adversarial framework where the discriminator provides unnormalized density (often called energy). We further develop this perspective, incorporate importance sampling, and show that 1) Wasserstein GAN performs a biased estimate of the partition function, and we propose instead to use an unbiased estimator; and 2) when optimizing for likelihood, one must maximize generator entropy. This is hypothesized to provide a better mode coverage. Different from previous works, we explicitly compute the density of the generated samples. This is the key enabler to designing an unbiased estimator of the partition function and computation of the generator entropy term. The generator density is obtained via a new type of flow network, called one-way flow network, that is less constrained in terms of architecture, as it does not require a tractable inverse function. Our experimental results show that our method converges faster, produces comparable sample quality to GANs with similar architecture, successfully avoids over-fitting to commonly used datasets and produces smooth low-dimensional latent representations of the training data.},
+  selected = {true},
+  preprint = {false}
+}
+
+@misc{ben-dovFairnessPeoplePeople2025,
+  title = {Fairness for the {{People}}, by the {{People}}: {{Minority Collective Action}}},
+  shorttitle = {Fairness for the {{People}}, by the {{People}}},
+  author = {{Ben-Dov}, Omri and Samadi, Samira and Sanyal, Amartya and {\c T}ifrea, Alexandru},
+  year = 2025,
+  number = {arXiv:2508.15374},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2508.15374},
+  urldate = {2026-01-28},
+  abstract = {Machine learning models often preserve biases present in training data, leading to unfair treatment of certain minority groups. Despite an array of existing firm-side bias mitigation techniques, they typically incur utility costs and require organizational buy-in. Recognizing that many models rely on user-contributed data, end-users can induce fairness through the framework of Algorithmic Collective Action, where a coordinated minority group strategically relabels its own data to enhance fairness, without altering the firm's training process. We propose three practical, model-agnostic methods to approximate ideal relabeling and validate them on real-world datasets. Our findings show that a subgroup of the minority can substantially reduce unfairness with a small impact on the overall prediction error.},
+  archiveprefix = {arXiv},
+  selected = {false},
+  preprint = {true}
+}
+
+@article{ben-dovModelbasedTrackingFruit2022,
+  title = {Model-Based Tracking of Fruit Flies in Free Flight},
+  author = {{Ben-Dov}, Omri and Beatus, Tsevi},
+  year = 2022,
+  journal = {Insects},
+  volume = {13},
+  number = {1018},
+  doi = {10.3390/insects13111018},
+  abstract = {Insect flight is a complex interdisciplinary phenomenon. Understanding its multiple aspects, such as flight control, sensory integration, physiology and genetics, often requires the analysis of large amounts of free flight kinematic data. Yet, one of the main bottlenecks in this field is automatically and accurately extracting such data from multi-view videos. Here, we present a model-based method for the pose estimation of free-flying fruit flies from multi-view high-speed videos. To obtain a faithful representation of the fly with minimum free parameters, our method uses a 3D model that includes two new aspects of wing deformation: A non-fixed wing hinge and a twisting wing surface. The method is demonstrated for free and perturbed flight. Our method does not use prior assumptions on the kinematics apart from the continuity of the wing pitch angle. Hence, this method can be readily adjusted for other insect species.},
+  pubmedid = {36354842},
+  selected = {true},
+  preprint= {false}
+}
+
+@inproceedings{ben-dovRoleLearningAlgorithms2024,
+  title = {The {{Role}} of {{Learning Algorithms}} in {{Collective Action}}},
+  booktitle = {Proceedings of the 41st {{International Conference}} on {{Machine Learning}}},
+  author = {{Ben-Dov}, Omri and Fawkes, Jake and Samadi, Samira and Sanyal, Amartya},
+  year = 2024,
+  volume = {235},
+  pages = {3443--3461},
+  publisher = {PMLR},
+  doi = {10.48550/arXiv.2405.06582},
+  abstract = {Collective action in machine learning is the study of the control that a coordinated group can have over machine learning algorithms. While previous research has concentrated on assessing the impact of collectives against Bayes (sub-)optimal classifiers, this perspective is limited in that it does not account for the choice of learning algorithm. Since classifiers seldom behave like Bayes classifiers and are influenced by the choice of learning algorithms along with their inherent biases, in this work we initiate the study of how the choice of the learning algorithm plays a role in the success of a collective in practical settings. Specifically, we focus on distributionally robust optimization (DRO), popular for improving a worst group error, and on the ubiquitous stochastic gradient descent (SGD), due to its inductive bias for "simpler" functions. Our empirical results, supported by a theoretical foundation, show that the effective size and success of the collective are highly dependent on properties of the learning algorithm. This highlights the necessity of taking the learning algorithm into account when studying the impact of collective action in machine learning.},
+  selected = {true},
+  preprint = {false}
+}
+
+@article{mayaHullReconstructionReprojection2023,
+  title = {A Hull Reconstruction--Reprojection Method for Pose Estimation of Free-Flying Fruit Flies},
+  author = {Maya, Roni and Lerner, Noam and {Ben-Dov}, Omri and Pons, Arion and Beatus, Tsevi},
+  year = 2023,
+  journal = {Journal of Experimental Biology},
+  volume = {226},
+  number = {21},
+  pages = {jeb245853},
+  doi = {10.1242/jeb.245853},
+  abstract = {Understanding the mechanisms of insect flight requires high-quality data of free-flight kinematics, e.g. for comparative studies or genetic screens. Although recent improvements in high-speed videography allow us to acquire large amounts of free-flight data, a significant bottleneck is automatically extracting accurate body and wing kinematics. Here, we present an experimental system and a hull reconstruction--reprojection algorithm for measuring the flight kinematics of fruit flies. The experimental system can automatically record hundreds of flight events per day. Our algorithm resolves a significant portion of the occlusions in this system by a reconstruction--reprojection scheme that integrates information from all cameras. Wing and body kinematics, including wing deformation, are then extracted from the hulls of the wing boundaries and body. This model-free method is fully automatic, accurate and open source, and can be readily adjusted for different camera configurations or insect species.},
+  selected = {false},
+  preprint = {false}
+}
+
+@article{ponsSolvingThoracicInverse2023,
+  title = {Solving the Thoracic Inverse Problem in the Fruit Fly},
+  author = {Pons, Arion and Perl, Illy and {Ben-Dov}, Omri and Maya, Roni and Beatus, Tsevi},
+  year = 2023,
+  journal = {Bioinspiration \& Biomimetics},
+  volume = {18},
+  number = {4},
+  pages = {046002},
+  publisher = {IOP Publishing},
+  doi = {10.1088/1748-3190/accc23},
+  abstract = {In many insect species, the thoracic exoskeletal structure plays a crucial role in enabling flight. In the dipteran indirect flight mechanism, thoracic cuticle acts as a transmission link between the flight muscles and the wings, and is thought to act as an elastic modulator: improving flight motor efficiency thorough linear or nonlinear resonance. But peering closely into the drivetrain of tiny insects is experimentally difficult, and the nature of this elastic modulation is unclear. Here, we present a new inverse-problem methodology to surmount this difficulty. In a data synthesis process, we integrate literature-reported rigid-wing aerodynamic and musculoskeletal data into a planar oscillator model for the fruit fly Drosophila melanogaster, and use this integrated data to identify several surprising properties of the fly's thorax. We find that fruit flies likely have an energetic need for motor resonance: absolute power savings due to motor elasticity range from 0\%--30\% across literature-reported datasets, averaging 16\%. However, in all cases, the intrinsic high effective stiffness of the active asynchronous flight muscles accounts for all elastic energy storage required by the wingbeat. The D. melanogaster flight motor should be considered as a system in which the wings are resonant with the elastic effects of the motor's asynchronous musculature, and not with the elastic effects of the thoracic exoskeleton. We discover also that D. melanogaster wingbeat kinematics show subtle adaptions that ensure that wingbeat load requirements match muscular forcing. Together, these newly-identified properties suggest a novel conceptual model of the fruit fly's flight motor: a structure that is resonant due to muscular elasticity, and is thereby intensely concerned with ensuring that the primary flight muscles are operating efficiently. Our inverse-problem methodology sheds new light on the complex behaviour of these tiny flight motors, and provides avenues for further studies in a range of other insect species.},
+  selected = {false},
+  preprint = {false}
+}

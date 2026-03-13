@@ -1,0 +1,108 @@
+---
+layout: default
+---
+
+{% assign resume = site.data.resume %}
+
+<div class="cv-header">
+  <h1 class="page-title">{{ page.title }}</h1>
+  <a class="cv-download" href="{{ '/assets/pdf/omri_ac_cv.pdf' | relative_url }}" target="_blank" rel="noopener">
+    <i class="fa-solid fa-file-pdf"></i> download pdf
+  </a>
+</div>
+
+{% comment %} ── Work ───────────────────────────────────────────────────── {% endcomment %}
+{% if resume.work.size > 0 %}
+<div class="cv-section">
+  <h2 class="cv-section-title">experience</h2>
+  {% for entry in resume.work %}
+  <div class="cv-entry">
+    <div class="cv-entry-main">
+      <div class="cv-entry-title">{{ entry.position }}</div>
+      <div class="cv-entry-org">{{ entry.name }}</div>
+      {% if entry.summary %}
+      <div class="cv-entry-summary">{{ entry.summary }}</div>
+      {% endif %}
+    </div>
+    <div class="cv-entry-date">
+      {{ entry.startDate }}{% if entry.endDate %} – {{ entry.endDate }}{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% comment %} ── Education ─────────────────────────────────────────────── {% endcomment %}
+{% if resume.education.size > 0 %}
+<div class="cv-section">
+  <h2 class="cv-section-title">education</h2>
+  {% for entry in resume.education %}
+  <div class="cv-entry">
+    <div class="cv-entry-main">
+      <div class="cv-entry-title">{{ entry.studyType }}{% if entry.area %}, {{ entry.area }}{% endif %}</div>
+      <div class="cv-entry-org">{{ entry.institution }}</div>
+    </div>
+    <div class="cv-entry-date">
+      {{ entry.startDate }}{% if entry.endDate %} – {{ entry.endDate }}{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% comment %} ── Publications ──────────────────────────────────────────── {% endcomment %}
+<div class="cv-section">
+  <h2 class="cv-section-title">publications</h2>
+  <p class="cv-entry-summary">See the <a href="{{ '/publications/' | relative_url }}">publications page</a> for a full list with abstracts and links.</p>
+</div>
+
+{% comment %} ── Awards ────────────────────────────────────────────────── {% endcomment %}
+{% if resume.awards.size > 0 %}
+<div class="cv-section">
+  <h2 class="cv-section-title">awards</h2>
+  {% for award in resume.awards %}
+  <div class="cv-entry">
+    <div class="cv-entry-main">
+      <div class="cv-entry-title">{{ award.title }}</div>
+    </div>
+    <div class="cv-entry-date">{{ award.date }}</div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% comment %} ── Volunteer ─────────────────────────────────────────────── {% endcomment %}
+{% if resume.volunteer.size > 0 %}
+<div class="cv-section">
+  <h2 class="cv-section-title">service</h2>
+  {% for entry in resume.volunteer %}
+  <div class="cv-entry">
+    <div class="cv-entry-main">
+      <div class="cv-entry-title">{{ entry.position }}</div>
+      <div class="cv-entry-org">{{ entry.organization }}</div>
+      {% if entry.summary %}
+      <div class="cv-entry-summary">{{ entry.summary }}</div>
+      {% endif %}
+    </div>
+    <div class="cv-entry-date">
+      {{ entry.startDate }}{% if entry.endDate %} – {{ entry.endDate }}{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% comment %} ── Skills ────────────────────────────────────────────────── {% endcomment %}
+{% if resume.skills.size > 0 %}
+<div class="cv-section">
+  <h2 class="cv-section-title">skills</h2>
+  <div class="cv-skills">
+    {% for skill in resume.skills %}
+    <span class="cv-skill-chip">
+      {% if skill.icon %}<i class="{{ skill.icon }}"></i>{% endif %}
+      {{ skill.name }}
+    </span>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

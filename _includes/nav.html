@@ -1,0 +1,19 @@
+<nav class="site-nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a class="nav-brand" href="{{ '/' | relative_url }}">{{ site.first_name | downcase }} {{ site.last_name | downcase }}</a>
+
+    <div class="nav-links">
+      {% assign pages = site.pages | where: "nav", true | sort: "nav_order" %}
+      {% for nav_page in pages %}
+        <a href="{{ nav_page.url | relative_url }}"
+           {% if page.url == nav_page.url %}class="active" aria-current="page"{% endif %}>
+          {{ nav_page.title | downcase }}
+        </a>
+      {% endfor %}
+    </div>
+
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle color theme">
+      ☀ light
+    </button>
+  </div>
+</nav>

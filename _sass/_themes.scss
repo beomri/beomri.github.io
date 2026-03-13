@@ -1,0 +1,26 @@
+// ─── CSS custom properties for dark (default) and light themes ───────────────
+
+:root,
+[data-theme="dark"] {
+  --bg:           #{$dark-bg};
+  --bg-raised:    #{$dark-bg-raised};
+  --text:         #{$dark-text};
+  --text-muted:   #{$dark-text-muted};
+  --border:       #{$dark-border};
+  --accent:       #{$dark-accent};
+  --accent-hover: #f0b898;
+  --code-bg:      #252220;
+  --selection-bg: rgba(232, 160, 122, 0.25);
+}
+
+[data-theme="light"] {
+  --bg:           #{$light-bg};
+  --bg-raised:    #{$light-bg-raised};
+  --text:         #{$light-text};
+  --text-muted:   #{$light-text-muted};
+  --border:       #{$light-border};
+  --accent:       #{$light-accent};
+  --accent-hover: #a04828;
+  --code-bg:      #ede7de;
+  --selection-bg: rgba(192, 96, 48, 0.15);
+}
