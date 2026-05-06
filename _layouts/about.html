@@ -44,6 +44,14 @@ layout: default
 </div>
 {% endif %}
 
-{% comment %} ── Selected publications ─────────────────────────────────── {% endcomment %}
-<div class="section-heading">selected publications</div>
-{% bibliography --query @*[selected=true] --group_by none %}
+{% comment %} ── Selected works ────────────────────────────────────────── {% endcomment %}
+<div class="section-heading">selected works</div>
+{% bibliography --query @*[selected=true] --group_by none --template bib_featured %}
+<div class="pub-more-links">
+  <span>more:</span>
+  <a href="{{ '/publications/' | relative_url }}">all publications</a>
+  <span>&middot;</span>
+  <a href="{{ '/projects/' | relative_url }}">projects</a>
+  <span>&middot;</span>
+  <a href="{{ '/talks/' | relative_url }}">talks</a>
+</div>

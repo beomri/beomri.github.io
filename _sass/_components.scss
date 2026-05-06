@@ -200,6 +200,64 @@
   }
 }
 
+.pub-featured {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 1.25rem;
+  align-items: start;
+
+  @media (max-width: 720px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pub-featured-media {
+  display: block;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--bg-raised);
+  transition: border-color 0.15s;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &:hover {
+    border-color: var(--accent);
+  }
+}
+
+.pub-featured-body {
+  min-width: 0;
+}
+
+.pub-more-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.8rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+
+  a {
+    color: var(--text-muted);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+
+    &:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+  }
+}
+
 // Publication year group heading
 .pub-year-group {
   margin-top: 2rem;
