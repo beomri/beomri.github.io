@@ -5,35 +5,35 @@
     "image": "",
     "email": "beomri@gmail.com",
     "url": "https://beomri.github.io/",
-    "summary": "A PhD student at MPI-IS"
+    "summary": "PhD student at the Max Planck Institute for Intelligent Systems working on principled objectives and optimization for generative modeling and learning under strategic behavior."
   },
   "work": [
     {
       "name": "Max Planck Institute for Intelligent Systems, Tübingen, Germany",
       "position": "PhD student",
-      "startDate": "2021-09",
-      "endDate": "Expected 2026-08",
-      "summary": "Research focus: Collective action in machine learning and development of generative model frameworks. Studied how a change of optimization and learning algorithm affects the success of collective action. Investigated the connection between density estimation to a simpler training algorithm for WGANs. Supervised by Samira Samadi (MPI-IS) and Amartya Sanyal (University of Copenhagen). Previous work in the Perceiving Systems department, developing a 3D articulated model of laboratory rats with Michael J. Black (MPI-IS), Silvia Zuffi (IMATI-CNR) and Sergi Pujades (INRIA) using computer vision tools."
+      "startDate": "2021",
+      "endDate": "2026",
+      "summary": "Research on principled objectives for generative modeling and strategic interaction in machine learning systems. Recent work includes adaptive symmetrization of the KL divergence, stable likelihood-based training for one-way flows, and collective-action methods for fairness. Supervised by Samira Samadi and Amartya Sanyal; prior work in the Perceiving Systems department on articulated 3D rat models with Michael J. Black, Silvia Zuffi, and Sergi Pujades."
     },
     {
       "name": "Weizmann Institute of Science, Rehovot, Israel",
       "position": "Research Assistant",
-      "startDate": "2021-03",
-      "endDate": "2021-06",
-      "summary": "Applied signal processing and matched filtering on gravitational waves data to detect binary black holes. Worked with Barak Zackay."
+      "startDate": "2021",
+      "endDate": "2021",
+      "summary": "Applied signal processing and matched filtering on gravitational-wave data to detect binary black holes. Worked with Barak Zackay."
     },
     {
       "name": "The Hebrew University of Jerusalem, Jerusalem, Israel",
       "position": "MSc research",
       "startDate": "2018",
       "endDate": "2021",
-      "summary": "Developed an algorithm to estimate kinematic parameters of flies from video using a 3D model. Supervised by Tsevi Beatus."
+      "summary": "Developed an algorithm to estimate kinematic parameters of free-flying flies from video using a 3D model. Supervised by Tsevi Beatus."
     },
     {
       "name": "Intel, Petah Tikva, Israel",
       "position": "QA Automation Engineer",
-      "startDate": "2015-01",
-      "endDate": "2015-06",
+      "startDate": "2015",
+      "endDate": "2015",
       "summary": "Developed and maintained scripts for automated testing and quality assurance."
     }
   ],
@@ -43,7 +43,8 @@
       "location": "Tübingen, Germany",
       "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "2021"
+      "startDate": "2021",
+      "endDate": "2026"
     },
     {
       "institution": "The Hebrew University of Jerusalem, Jerusalem, Israel",
@@ -64,20 +65,24 @@
   ],
   "awards": [
     {
-      "title": "NeurIPS Top Reviewer",
+      "title": "Silver Reviewer, ICML",
+      "date": "2026"
+    },
+    {
+      "title": "Top Reviewer, NeurIPS",
       "date": "2025"
     },
     {
-      "title": "Dean’s Honor List, The Hebrew University of Jerusalem (MSc).",
+      "title": "Dean's Honor List, The Hebrew University of Jerusalem (MSc)",
       "date": "2021"
     },
     {
-      "title": "Participant in Weizmann Institute Amos de-Shalit Ulpana for excellent students in Physics.",
+      "title": "Weizmann Institute Amos de-Shalit Summer School for excellent students in Physics",
       "date": "2017"
     },
     {
-      "title": "Excellent Students in Computer Science Program (BSc).",
-      "date": "2016"
+      "title": "Excellent Students in Computer Science Program (BSc)",
+      "date": "2016-2018"
     }
   ],
   "volunteer": [
@@ -93,19 +98,19 @@
       "position": "Committee Member",
       "startDate": "2023",
       "endDate": "2025",
-      "summary": "Organizing monthly lunches at the Tübingen site to discuss and promote diversity and inclusion."
+      "summary": "Organized monthly lunches at the Tübingen site to discuss and promote diversity and inclusion."
     }
   ],
   "publications": [
     {
       "name": "Adaptive Symmetrization of the KL Divergence",
-      "publisher": "arxiv",
+      "publisher": "arXiv",
       "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2511.11159"
     },
     {
       "name": "Fairness for the People, by the People: Minority Collective Action",
-      "publisher": "arxiv",
+      "publisher": "arXiv",
       "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2508.15374"
     },
@@ -146,11 +151,11 @@
       "icon": "fa-brands fa-python"
     },
     {
-      "name": "MATLAB",
+      "name": "C/C++",
       "icon": "fa-solid fa-code"
     },
     {
-      "name": "C,C++",
+      "name": "MATLAB",
       "icon": "fa-solid fa-code"
     },
     {
@@ -158,12 +163,28 @@
       "icon": "fa-solid fa-code"
     },
     {
-      "name": "Scikit-Learn",
+      "name": "Scikit-learn",
+      "icon": "fa-solid fa-code"
+    },
+    {
+      "name": "Hydra",
+      "icon": "fa-solid fa-code"
+    },
+    {
+      "name": "HTCondor",
       "icon": "fa-solid fa-code"
     },
     {
       "name": "Git",
       "icon": "fa-brands fa-git-alt"
+    },
+    {
+      "name": "Jupyter",
+      "icon": "fa-solid fa-code"
+    },
+    {
+      "name": "LaTeX",
+      "icon": "fa-solid fa-code"
     }
   ]
 }
