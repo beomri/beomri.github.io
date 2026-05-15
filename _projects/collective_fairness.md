@@ -16,6 +16,13 @@ category: work
   </p>
 </div>
 
+## Resources
+
+- For more details, results and limitations, please read our [research preprint](https://arxiv.org/abs/2508.15374).
+- A [conference poster]({{ '/assets/pdf/fairness_from_users_poster.pdf' | relative_url }}) presenting the paper.
+- A [recording of a talk](https://youtu.be/Qt_w7LpphpQ) summarizing the work.
+- A [recording of a popular-science talk](https://www.youtube.com/watch?v=z4Hjm5D_lkI) and the [slides]({{ '/assets/pdf/fairness_collective_slides.pdf' | relative_url }}) from the [Tübingen Days of Digital Freedom](https://tdf.cttue.de/en/index.html).
+
 ## Introduction
 A standard task in machine learning is classification, where the goal is to train a classifier $h$ to return the correct label $y$ for given features $x$.
 In many cases, measuring the classifier's accuracy on a test set is enough to assess its quality.
@@ -131,13 +138,6 @@ We bridged between fairness and ACA to provide a model-agnostic practical algori
 We hope this will shift focus to other method to fight unfairness in machine learning.
 For a more in-depth analysis, you can read the preprint [here](https://arxiv.org/abs/2508.15374), or watch the [recorded talk](https://youtu.be/Qt_w7LpphpQ) for a brief summary.
 
-
-## Resources
-
-- For more details, results and limitations, please read our [research preprint](https://arxiv.org/abs/2508.15374).
-- A [conference poster]({{ '/assets/pdf/fairness_from_users_poster.pdf' | relative_url }}) presenting the paper.
-- A [recording of a talk](https://youtu.be/Qt_w7LpphpQ) summarizing the work.
-- A [recording of a popular-science talk](https://www.youtube.com/watch?v=z4Hjm5D_lkI) and the [slides]({{ '/assets/pdf/fairness_collective_slides.pdf' | relative_url }}) from the [Tübingen Days of Digital Freedom](https://tdf.cttue.de/en/index.html).
 
 ## Collaborators
 
