@@ -2,9 +2,9 @@
 title: Omri Ben-Dov
 first_name: Omri
 last_name: Ben-Dov
-email: odov@tue.mpg.de
+email: omri@cs.uni-saarland.de
 description: >-
-  PhD student in Machine Learning at the Max Planck Institute for Intelligent Systems.
+  Postdoctoral researcher in Machine Learning at Saarland University.
   Research on collective action and generative modeling.
 url: "https://beomri.github.io"
 baseurl: ""
@@ -14,8 +14,7 @@ profile:
   image: prof_pic.jpg
   image_alt: Omri Ben-Dov
   more_info: >
-    PhD student in ML<br>
-    MPI-IS, Tübingen
+    Postdoctoral researcher in ML
 
 # Social / contact
 contact_note: >
